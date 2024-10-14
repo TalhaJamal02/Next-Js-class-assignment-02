@@ -1,0 +1,33 @@
+.header {
+  color: white;
+  background-color: #000;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 20px;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.li {
+  color: rgba(255, 166, 0, 0.832);
+  padding: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.li:hover {
+  background-color: #555;
+  border-radius: 10px;
+}

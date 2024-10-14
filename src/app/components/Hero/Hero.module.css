@@ -1,0 +1,48 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Center vertically */
+  align-items: center;
+  /* Center horizontally */
+  min-height: 80vh;
+  text-align: left;
+  /* Align the text to center */
+  color: white;
+}
+
+
+.title {
+  margin: 5px;
+  font-weight: 800;
+  padding: 4px;
+  font-family: system-ui, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description {
+  margin: 5px;
+  font-weight: 500;
+  padding: 4px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.span {
+  color: rgba(255, 166, 0, 0.832);
+}
+
+.btn {
+  color: white;
+  padding: 13px 10px;
+  margin: 10px;
+  background-color: rgba(255, 166, 0, 0.9);
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid orange;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background: transparent;
+}
