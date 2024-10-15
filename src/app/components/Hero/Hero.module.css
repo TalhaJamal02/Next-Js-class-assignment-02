@@ -2,12 +2,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* Center vertically */
   align-items: center;
-  /* Center horizontally */
   min-height: 80vh;
   text-align: left;
-  /* Align the text to center */
   color: white;
 }
 
